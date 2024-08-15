@@ -1,10 +1,10 @@
-**Random Forest Stock Prediction Notebook**
+**Stock Prediction Notebook**
 =============================================
 
 **Motive**
 ----------
 
-This notebook aims to build a predictive model using Random Forest to forecast stock prices. The primary objective is to evaluate the performance of the model in predicting future stock prices based on historical data.
+This notebook aims to build a predictive models using ML algorithms to forecast stock prices and movement. The primary objective is to evaluate the performance of the model in predicting future stock prices based on historical data. The motive is educational only and not to make money.
 
 **Dependencies**
 ---------------
@@ -38,11 +38,6 @@ This notebook is licensed under the MIT License. You are free to use, modify, an
 -------------------
 
 To get started with this notebook, simply clone the repository and install the required dependencies. You can then open the notebook in your preferred IDE or Jupyter environment.
-
-**Contributing**
----------------
-
-Contributions are welcome! If you'd like to contribute to this notebook, please fork the repository and submit a pull request with your changes.
 
 **Acknowledgments**
 -----------------
