@@ -1,45 +1,57 @@
-**Stock Prediction Notebook**
-=============================================
+# Stock Prediction using Machine Learning
 
-**Motive**
-----------
+This repository contains two Jupyter notebooks that demonstrate the use of machine learning techniques to predict stock prices.
 
-This notebook aims to build a predictive models using ML algorithms to forecast stock prices and movement. The primary objective is to evaluate the performance of the model in predicting future stock prices based on historical data. The motive is educational only and not to make money.
+## Notebook 1: Random Forest
 
-**Dependencies**
----------------
+The first notebook, [RandomForest.ipynb](RandomForest.ipynb), demonstrates the use of Random Forest algorithm to predict stock prices. It includes the following steps:
 
-This notebook requires the following dependencies to be installed:
+1. Data Preprocessing: The notebook cleans and preprocesses the data by removing missing values and scaling the features.
+2. Feature Engineering: The notebook creates new features such as rolling averages and trends to improve the model's performance.
+3. Model Training: The notebook trains a Random Forest model on the preprocessed data and evaluates its performance using metrics such as accuracy and confusion matrix.
 
-* Python 3.x
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* Plotly
+## Notebook 2: SVM
 
-**Overview of the Code**
-------------------------
+The second notebook, [SVM.ipynb](SVM.ipynb), demonstrates the use of Support Vector Machine (SVM) algorithm to predict stock prices. It includes the following steps:
 
-This notebook is organized into several sections:
+1. Data Preprocessing: The notebook cleans and preprocesses the data by removing missing values and scaling the features.
+2. Feature Engineering: The notebook creates new features such as rolling averages and trends to improve the model's performance.
+3. Model Training: The notebook trains an SVM model on the preprocessed data and evaluates its performance using metrics such as accuracy and confusion matrix.
 
-1. **Data Preparation**: Loading and preprocessing the stock price data, including handling missing values and converting data types.
-2. **Feature Engineering**: Creating new features from the existing data, such as rolling averages and trend indicators.
-3. **Model Training**: Training a Random Forest model on the prepared data and evaluating its performance using metrics such as precision, recall, and F1 score.
-4. **Backtesting**: Testing the performance of the model on out-of-sample data and evaluating its ability to predict future stock prices.
-5. **Visualization**: Visualizing the results of the model, including the predicted stock prices and the performance metrics.
+## Additional Files
 
-**License**
-----------
+The repository also includes the following files:
 
-This notebook is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
+- [Data.csv](Data.csv): The dataset used for training and testing the models.
+- [RandomForest.py](RandomForest.py): The Python script used to train the Random Forest model.
+- [SVM.py](SVM.py): The Python script used to train the SVM model.
 
-**Getting Started**
--------------------
+## Requirements
 
-To get started with this notebook, simply clone the repository and install the required dependencies. You can then open the notebook in your preferred IDE or Jupyter environment.
+The following libraries are required to run the notebooks:
 
-**Acknowledgments**
------------------
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
 
-This notebook uses data from the NIFTY stock index and is inspired by various machine learning and finance resources.
+## How to Run
+
+To run the notebooks, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/stock-prediction.git`
+2. Install the required libraries: `pip install -r requirements.txt`
+3. Start Jupyter Notebook: `jupyter notebook`
+4. Open the desired notebook (RandomForest.ipynb or SVM.ipynb) and run the cells.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+---
