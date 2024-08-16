@@ -44,6 +44,7 @@ The following libraries are required to run the notebooks:
 * seaborn
 * scikit-learn
 * jupyter
+* yfinance
 
 ## How to Run
 
